@@ -1,0 +1,105 @@
+.main-conatiner{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main-conatiner .call-contents h1{
+    font-family: $font-naem;
+    font-weight: bolder;
+    font-size: 72;
+    text-shadow: 7px 3px 1px #000000,7px 3px 10px #1EE0E1;
+}
+
+
+.main-conatiner .call-contents p{
+    font-size: 20;
+    font-weight: lighter;
+    font-family: $font-naem;
+    width: 612px;
+    margin: 20px auto;
+}
+.main-conatiner .call-contents form input{
+    display: block;
+    margin: 40px auto;
+    background-color: #0D0D2D;
+    padding: 24px 24px;
+    color: white;
+    font-size: 22;
+    font-family: $font-naem;
+    font-weight: 400;
+    width: 716px;
+    border-radius: 16px;
+    border: 1px solid #0D0D2D;
+}
+
+input::placeholder{
+    font-size: 22;
+    font-family: $font-naem;
+    font-weight: 400;
+}
+.main-conatiner .call-contents form button{
+    @include main-btns;
+}
+
+.social-media-content{
+    width: 945px;
+    height: 171px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-icon{
+    border-radius: 50%;
+    margin: 20px auto;
+    // border: 1px solid red;
+   height: 79px;
+   width: 79px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #1A124F;
+}
+.social-media-email p{
+    font-size: 20;
+    text-align: center;
+    font-family: $font-naem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.social-media .all-icons-at-one-place{
+    width: 280px;
+    height: 47px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media .all-icons-at-one-place .icons-holder{
+    background-color: #121242;
+    height: 48px;
+    border-radius: 50%;
+    width: 48px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #1E1B34;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-nav p{
+    font-family: $font-naem;
+    font-weight: 400;
+    font-size: 20;
+}

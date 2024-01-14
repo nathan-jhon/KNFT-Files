@@ -1,0 +1,36 @@
+$font-naem:'Roboto', sans-serif;
+@mixin main-btns{
+    color: #fff;
+    background: linear-gradient(to right, #DF1CFF, #EA0070);
+    font-family: $font-naem;
+    font-weight: 600;
+    border-radius: 8px;
+    border:1px solid transparent;
+    padding: 15px 30px;
+    font-size: 20;
+    cursor: pointer;
+    box-shadow: 0 0 100px #e11cff60;
+}
+@mixin prim-btn{
+    font-family: $font-naem;
+    font-size: 20;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #DF1CFF;
+    background: linear-gradient(to left, #e11cff31, #ea007144);
+    color: white;
+    box-shadow: 0 0 100px #e50aa72e;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.8s ease-in-out;
+}
+.link-btn{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20;
+}

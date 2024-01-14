@@ -1,0 +1,127 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    align-items: center;
+}
+.content{
+    position: relative;
+}
+
+
+.content h1{
+    font-family: 'Roboto';
+    font-size: 55.75;
+    width: 623px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.content h1 span{
+    font-weight:300 ;
+    font-style: italic;
+}
+.content p{
+    width: 494px;
+    font-size: 20;
+    font-weight: 400;
+    font-family: 'Roboto';
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+
+.content button{
+    @include main-btns;
+}
+
+.img-one{
+    background-image: url(../img/hero-section-img-bg.png);
+    width:900px;
+    height:700px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+    padding: 40px;
+    // display: flex;
+    // justify-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 130px;
+}
+
+
+.img-center{
+    background-image: url(../img/hero-section-img.png);
+    width: 400px;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-20px, 0);
+    border-radius: 50%;
+    border: 2px solid #04011C ;
+}
+
+.img-section-content{
+    bottom: 200px;
+    left: 90px;
+    color: white;
+    border: 2px solid #DF1CFF;
+    position: absolute;
+    font-family: $font-naem;
+    background-color: #04011C;
+    width: 150px;
+    height: 150px;
+    font-size: 16;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.icon{
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+
+.overview .content h1{
+    display: inline-block;
+    width: fit-content;
+    font-family: $font-naem;
+    font-size: 32;
+    font-weight: bold;
+    margin-bottom: 30;
+}
+
+.eye{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 10px;
+}
+
+.overview .names{
+    display: flex;
+}
+.overview .names .card:not(.card-1){
+    margin-left: 50px;
+}
+
+.overview .names .card p{
+    opacity: 0.8;
+    font-family: $font-naem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.overview .names .card h3{
+    font-family: $font-naem;
+    font-weight: 600;
+    font-size: 32;
+}

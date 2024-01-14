@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #04011C;
+    // overflow-x: hidden;
+    width: 1440px;
+    margin: 0 auto;
+    animation: glow;
+    animation-duration: 5s;
+    border-left: 1px solid #28CBFF;
+    border-right: 1px solid #CF68FF;
+    animation: glow 5s infinite;
+    color: #fff;
+    padding: 20px 80px;
+}
+
+@keyframes glow {
+    0%{
+        border-color: #297FFF;
+    }
+    10%{
+        border-color: #BF38FF;
+    }
+    20%{
+        border-color: #CF68FF;
+    }
+    30%{
+        border-color: #28CBFF;
+    }
+    50%{
+        border-color: #E1A1FF;
+    }
+
+  }
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+span{
+    color: #1EE1E2;
+    font-style: italic;
+    font-weight: 400;
+}

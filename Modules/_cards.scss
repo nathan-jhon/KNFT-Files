@@ -1,0 +1,216 @@
+.hero-2 .hero-2-title{
+    margin-top: 100px;
+    text-align: center;
+    font-family: $font-naem;
+    font-size: 26;
+}
+
+.hero-2 .hero-2-title span{
+    color: #1EE0E1;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-2 .cards-nav{
+    text-align: center;
+    margin: 20px 0;
+    font-family: $font-naem;
+    font-weight: 500 lighter;
+    font-size: 20;
+}
+
+.hero-2 .cards-nav ul li{
+    margin-left: 90px;
+    opacity: 0.5;
+}
+.hero-2 .cards-nav ul li:nth-child(1){
+    opacity: 1;
+    border: 1px solid #DF1CFF;
+    padding: 10px 20px;
+    border-radius: 100%;
+    box-shadow:0px 0px 5px #DF1CFF ;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 406px);
+    grid-template-rows: repeat(2, 580px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.cards .card{
+    background: linear-gradient(to left, #0C1230, #101230);
+    border-radius: 16px;
+    padding: 40px 36px;
+    cursor: pointer;
+}
+
+.card-1-img{
+    width: 339px;
+    height: 425px;
+    // border: 1px solid red;
+    background: url(../img/card-img/image-2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.card-2-img{
+    width: 339px;
+    height: 425px;
+    // border: 1px solid red;
+    background: url(../img/card-img/image-4.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.card-3-img{
+    width: 339px;
+    height: 425px;
+    // border: 1px solid red;
+    background: url(../img/card-img/image-3.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.card-4-img{
+    width: 339px;
+    height: 425px;
+    // border: 1px solid red;
+    background: url(../img/card-img/image-4.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.card-5-img{
+    width: 339px;
+    height: 425px;
+    // border: 1px solid red;
+    background: url(../img/card-img/image-5.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.card-6-img{
+    width: 339px;
+    height: 425px;
+    // border: 1px solid red;
+    background: url(../img/card-img/image-6.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.like-button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    // border: 1px solid red;
+    border-radius: 8px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like-button:active{
+    color: rgb(167, 61, 61);
+}
+.names-and-rating .names{
+    display: flex;
+    justify-content: space-between;
+    font-family: $font-naem;
+    font-weight: 600 lighter;
+    margin: 20px 0;
+}
+.names-and-rating .names .name{
+    letter-spacing: 2px;
+}
+.names-and-rating .names .card-icon p{
+    display: inline-block;
+}
+.names-and-rating .rating{
+    color: #bb8e26;
+}
+
+.card-explore-button{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.card-explore-button .cards-btn{
+    font-family: $font-naem;
+    font-size: 20;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #DF1CFF;
+    background: linear-gradient(to left, #e11cff31, #ea007144);
+    color: white;
+    box-shadow: 0 0 100px #e50aa72e;
+    cursor: pointer;
+}
+.buy-butn{
+    font-family: $font-naem;
+    background: linear-gradient(to right, #DF1CFF, #EA0070);
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px 0;
+    font-size: 20;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    transform: translateX(20px);
+    transform: translateY(100px);
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.card-1-img:hover .buy-butn{
+    transform: translateY(0px);
+    transform: translateX(20px);
+    
+}
+.card-2-img:hover .buy-butn{
+    transform: translateY(0px);
+    transform: translateX(20px);
+    
+}
+.card-3-img:hover .buy-butn{
+    transform: translateY(0px);
+    transform: translateX(20px);
+    
+}
+.card-4-img:hover .buy-butn{
+    transform: translateY(0px);
+    transform: translateX(20px);
+    
+}
+.card-5-img:hover .buy-butn{
+    transform: translateY(0px);
+    transform: translateX(20px);
+    
+}
+.card-6-img:hover .buy-butn{
+    transform: translateY(0px);
+    transform: translateX(20px);
+    
+}
+
+
+
+.buy-butn:hover{
+    opacity: 0.9;
+}
+.buy-butn:active{
+    opacity: 0.5;
+}

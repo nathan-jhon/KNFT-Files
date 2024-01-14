@@ -1,0 +1,24 @@
+.gradient-to-left{
+    border: 1px solid red;
+    height: 900px;
+    width: 900px;
+    border: 50%;
+    filter: blur(10000px);
+    position: absolute;
+    top: 0;
+    left: -100px;
+    background:linear-gradient(to right, #297FFF, #520377, #CF68FF,#28CBFF,#E1A1FF) ;
+    z-index: -2;
+}
+
+.gradient-to-center{
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 1000px;
+    right:200px;
+    filter: blur(500px);
+    z-index: -1;
+    background: linear-gradient(to right,#8DFF1B,#297FFF,#3870FF,#0F7BFB,#00C2FF,#AF05FF);
+}
